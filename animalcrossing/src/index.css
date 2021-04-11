@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #dedede;
+  color: #333;
+  padding: 20px 0 28px 0;
+  margin: 0;
+  font-size: .75rem;
+}
+
+p{
+	margin-bottom:5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.app-title {
+
+  font-weight: normal;
+      margin-top: 10px;
+ 
+}
+
+.btn{
+	margin:5px;
+	
+}
+
+
+.photo {
+  width: 100%;
+  max-width: 50px;
+}
+
+.name {
+ font-size: 1rem;
+    font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
+
+
+
+.footer {
+  font-size: 0.7rem;
+  color: #888;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+/* my own container */
+
+.my_container{
+    width: 100%;
+padding:0;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.my_container{
+		max-width:100%;
+		
+	}
+	 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.my_container{
+		max-width:850px;
+		    padding-right: 15px;
+    padding-left: 15px;
+	}
+	 }
