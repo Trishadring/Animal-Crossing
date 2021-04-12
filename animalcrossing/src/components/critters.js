@@ -1,11 +1,11 @@
 
 
-function Critters({id, bug_name, price, location, time }) {
+function Critters({id, bug_name, price, img, location, time }) {
 
 	
   return (
 		<tr id={id}>
-			{/* <td><img class="photo" src="{img}"/></td> */}
+			 <td><img className="photo" src={`http://www.acnhcritter.tdring.com/${img}`} alt={bug_name}/></td>
 			<td className="name">{bug_name}</td>
 			<td>{price}</td>
 			<td>{location}</td>

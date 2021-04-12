@@ -58,6 +58,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":69,
 			"bug_name": "Ant",
 			"price": "80",
 			"img": "images/Ant-ACNH.png",
@@ -113,6 +114,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":14,
 			"bug_name": "Atlas Moth",
 			"price": "3,000",
 			"img": "images/Atlas-Moth.png",
@@ -168,6 +170,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":68,
 			"bug_name": "Bagworm",
 			"price": "600",
 			"img": "images/Bagworm-ACNH.png",
@@ -223,6 +226,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":34,
 			"bug_name": "Banded Dragonfly",
 			"price": "4,500",
 			"img": "images/Banded-Dragonfly-ACNH.png",
@@ -278,6 +282,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":21,
 			"bug_name": "Bell Cricket",
 			"price": "430",
 			"img": "images/Bell-Cricket-ACNH.png",
@@ -333,6 +338,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":49,
 			"bug_name": "Blue Weevil Beetle",
 			"price": "800",
 			"img": "images/Blue-Weevil-Beetle-ACNH.png",
@@ -388,6 +394,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":26,
 			"bug_name": "Brown Cicada",
 			"price": "250",
 			"img": "images/Brown-Cicada-ACNH.png",
@@ -443,6 +450,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":77,
 			"bug_name": "Centipede",
 			"price": "300",
 			"img": "images/Centipede-ACNH.png",
@@ -498,6 +506,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":31,
 			"bug_name": "Cicada Shell",
 			"price": "10",
 			"img": "images/Cicada-Shell-ACNH.png",
@@ -553,6 +562,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":47,
 			"bug_name": "Citrus Long-horned Beetle",
 			"price": "350",
 			"img": "images/Citrus-Long-Horned-Beetle.png",
@@ -720,6 +730,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":20,
 			"bug_name": "Cricket",
 			"price": "130",
 			"img": "images/Cricket-ACNH.png",
@@ -775,6 +786,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":59,
 			"bug_name": "Cyclommatus Stag",
 			"price": "8,000",
 			"img": "images/Cyclommatus-ACNH.png",
@@ -830,6 +842,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":35,
 			"bug_name": "Damselfly",
 			"price": "500",
 			"img": "images/Damselfly-ACNH.png",
@@ -885,6 +898,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":33,
 			"bug_name": "Darner Dragonfly",
 			"price": "230",
 			"img": "images/Darner-Dragonfly-ACNH.png",
@@ -940,6 +954,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":39,
 			"bug_name": "Diving Beetle",
 			"price": "800",
 			"img": "images/Diving-Beetle-ACNH.png",
@@ -995,6 +1010,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":53,
 			"bug_name": "Drone Beetle",
 			"price": "200",
 			"img": "images/Drone-Beetle-ACNH.png",
@@ -1050,6 +1066,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":50,
 			"bug_name": "Dung Beetle",
 			"price": "3,000",
 			"img": "images/Dung-Beetle.png",
@@ -1105,6 +1122,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":51,
 			"bug_name": "Earth-boring Dung Beetle",
 			"price": "300",
 			"img": "images/Earth-Boring-Dung-Beetle.png",
@@ -1216,6 +1234,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":30,
 			"bug_name": "Evening Cicada",
 			"price": "660",
 			"img": "images/Evening-Cicada-ACNH.png",
@@ -1271,6 +1290,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":36,
 			"bug_name": "Firefly",
 			"price": "300",
 			"img": "images/Firefly.png",
@@ -1326,6 +1346,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":74,
 			"bug_name": "Flea",
 			"price": "70",
 			"img": "images/Flea-ACNH.png",
@@ -1381,6 +1402,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":72,
 			"bug_name": "Fly",
 			"price": "60",
 			"img": "images/Fly-ACNH.png",
@@ -1436,6 +1458,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":28,
 			"bug_name": "Giant Cicada",
 			"price": "600",
 			"img": "images/Giant-Cicada-ACNH.png",
@@ -1491,6 +1514,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":57,
 			"bug_name": "Giant Stag",
 			"price": "10,000",
 			"img": "images/Giant-Stag-ACNH.png",
@@ -1546,6 +1570,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":40,
 			"bug_name": "Giant Water Bug",
 			"price": "2,000",
 			"img": "images/Giant-Water-Bug-ACNH.png",
@@ -1601,6 +1626,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":61,
 			"bug_name": "Giraffe Stag",
 			"price": "12,000",
 			"img": "images/Giraffe-Stag-ACNH.png",
@@ -1656,6 +1682,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":60,
 			"bug_name": "Golden Stag",
 			"price": "12,000",
 			"img": "images/Golden-Stag-ACNH.png",
@@ -1711,6 +1738,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":54,
 			"bug_name": "Goliath Beetle",
 			"price": "8,000",
 			"img": "images/Goliath-Beetle-ACNH.png",
@@ -1766,6 +1794,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":19,
 			"bug_name": "Grasshopper",
 			"price": "160",
 			"img": "images/Grasshopper-ACNH.png",
@@ -1877,6 +1906,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":70,
 			"bug_name": "Hermit Crab",
 			"price": "1,000",
 			"img": "images/Hermit-Crab-ACNH.png",
@@ -1932,6 +1962,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":24,
 			"bug_name": "Honeybee",
 			"price": "200",
 			"img": "images/Honeybee-ACNH.png",
@@ -1987,6 +2018,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":63,
 			"bug_name": "Horned Atlas",
 			"price": "8,000",
 			"img": "images/Horned-Atlas-ACNH.png",
@@ -2042,6 +2074,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":62,
 			"bug_name": "Horned Dynastid",
 			"price": "1,350",
 			"img": "images/Horned-Dynastid-ACNH.png",
@@ -2097,6 +2130,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":64,
 			"bug_name": "Horned Elephant",
 			"price": "8,000",
 			"img": "images/Horned-Elephant-ACNH.png",
@@ -2152,6 +2186,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":65,
 			"bug_name": "Horned Hercules",
 			"price": "12,000",
 			"img": "images/Horned-Hercules-ACNH.png",
@@ -2207,6 +2242,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":45,
 			"bug_name": "Jewel Beetle",
 			"price": "2,400",
 			"img": "images/Jewel-Beetle.png",
@@ -2262,6 +2298,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":43,
 			"bug_name": "Ladybug",
 			"price": "200",
 			"img": "images/Ladybug-ACNH.png",
@@ -2317,6 +2354,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":16,
 			"bug_name": "Long Locust",
 			"price": "200",
 			"img": "images/Long-Locust-ACNH.png",
@@ -2372,6 +2410,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":15,
 			"bug_name": "Madagascan Sunset Moth",
 			"price": "2,500",
 			"img": "images/Madagascan-Sunset-Moth-ACNH.png",
@@ -2427,6 +2466,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":42,
 			"bug_name": "Man-faced Stink Bug",
 			"price": "1,000",
 			"img": "images/Man-faced-Stink-Bug-ACNH.png",
@@ -2482,6 +2522,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":22,
 			"bug_name": "Mantis",
 			"price": "430",
 			"img": "images/Mantis-ACNH.png",
@@ -2537,6 +2578,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":17,
 			"bug_name": "Migratory Locust",
 			"price": "600",
 			"img": "images/Migratory-Locust-ACNH.png",
@@ -2592,6 +2634,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":56,
 			"bug_name": "Miyama Stag",
 			"price": "1,000",
 			"img": "images/Miyama-Stag-ACNH.png",
@@ -2647,6 +2690,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":37,
 			"bug_name": "Mole Cricket",
 			"price": "500",
 			"img": "images/Mole-Cricket-ACNH.png",
@@ -2758,6 +2802,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":73,
 			"bug_name": "Mosquito",
 			"price": "130",
 			"img": "images/Mosquito-ACNH.png",
@@ -2869,6 +2914,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":23,
 			"bug_name": "Orchid Mantis",
 			"price": "2,400",
 			"img": "images/Orchid-Mantis-ACNH.png",
@@ -3036,6 +3082,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":76,
 			"bug_name": "Pill Bug",
 			"price": "250",
 			"img": "images/Pill-Bug-ACNH.png",
@@ -3091,6 +3138,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":38,
 			"bug_name": "Pondskater",
 			"price": "130",
 			"img": "images/Pondskater-ACNH.png",
@@ -3202,6 +3250,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":58,
 			"bug_name": "Rainbow Stag",
 			"price": "6,000",
 			"img": "images/Rainbow-Stag-ACNH.png",
@@ -3313,6 +3362,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":32,
 			"bug_name": "Red Dragonfly",
 			"price": "180",
 			"img": "images/Red-Dragonfly-ACNH.png",
@@ -3368,6 +3418,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":18,
 			"bug_name": "Rice Grasshopper",
 			"price": "160",
 			"img": "images/Rice-Grasshopper-ACNH.png",
@@ -3423,6 +3474,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":27,
 			"bug_name": "Robust Cicada",
 			"price": "300",
 			"img": "images/Robust-Cicada-ACNH.png",
@@ -3478,6 +3530,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":48,
 			"bug_name": "Rosalia Batesi Beetle",
 			"price": "3,000",
 			"img": "images/Rosalia-Batesi-Beetle-ACNH.png",
@@ -3533,6 +3586,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":55,
 			"bug_name": "Saw Stag",
 			"price": "2,000",
 			"img": "images/Saw-Stag-ACNH.png",
@@ -3588,6 +3642,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":52,
 			"bug_name": "Scarab Beetle",
 			"price": "10,000",
 			"img": "images/Scarab-Beetle.png",
@@ -3643,6 +3698,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":80,
 			"bug_name": "Scorpion",
 			"price": "8,000",
 			"img": "images/Scorpion.png",
@@ -3698,6 +3754,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":75,
 			"bug_name": "Snail",
 			"price": "250",
 			"img": "images/Snail-ACNH.png",
@@ -3753,6 +3810,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":78,
 			"bug_name": "Spider",
 			"price": "480",
 			"img": "images/Spider.png",
@@ -3808,6 +3866,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":41,
 			"bug_name": "Stinkbug",
 			"price": "120",
 			"img": "images/Stink-Bug-ACNH.png",
@@ -3863,6 +3922,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":79,
 			"bug_name": "Tarantula",
 			"price": "8,000",
 			"img": "images/Tarantula.png",
@@ -3918,6 +3978,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":44,
 			"bug_name": "Tiger Beetle",
 			"price": "1,500",
 			"img": "images/Tiger-Beetle.png",
@@ -4029,6 +4090,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":46,
 			"bug_name": "Violin Beetle",
 			"price": "450",
 			"img": "images/Violin-Beetle-ACNH.png",
@@ -4084,6 +4146,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":29,
 			"bug_name": "Walker Cicada",
 			"price": "400",
 			"img": "images/Walker-Cicada-ACNH.png",
@@ -4139,6 +4202,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":67,
 			"bug_name": "Walking Leaf",
 			"price": "600",
 			"img": "images/Walking-Leaf-ACNH.png",
@@ -4194,6 +4258,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":66,
 			"bug_name": "Walking Stick",
 			"price": "600",
 			"img": "images/Walkingstick-ACNH.png",
@@ -4249,6 +4314,7 @@ const BugData = {
 			"h_23": false
 		},
 		{
+			"id":25,
 			"bug_name": "Wasp",
 			"price": "2,500",
 			"img": "images/Wasp-ACNH.png",
@@ -4304,6 +4370,7 @@ const BugData = {
 			"h_23": true
 		},
 		{
+			"id":71,
 			"bug_name": "Wharf Roach",
 			"price": "200",
 			"img": "images/Wharf-Roach-ACNH.png",

@@ -1,4 +1,4 @@
-body {
+#root {
   font-family: 'Roboto Mono', monospace;
   background-color: #dedede;
   color: #333;
@@ -39,6 +39,9 @@ img {
   margin: 0 0 1rem 0;
 }
 
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: rgba(0,0,0,.05);
+}
 
 
 

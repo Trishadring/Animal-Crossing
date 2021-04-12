@@ -1,13 +1,11 @@
 
-function Images({}) {
+const Images = ({img}) =>{
+	const imagesUrl = `./${img}`; 
 
+	return(
+			<img src={imagesUrl} alt="" />
 
-  return (
- <>
-
- </>
-
-  );
+	);
 }
 
 export default Images;
