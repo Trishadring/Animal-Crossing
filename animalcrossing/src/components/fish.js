@@ -1,8 +1,9 @@
-import BugList from "./bugList"
+import FishList from "./fishList";
 
-const Bugs = (props) => {
+const Fish = (props) => {
 
-  const allBugs = props.bugs.map((m,i) => <BugList key={m.id} {...m} /> )
+  const allFish = props.bugs.map((m,i) => <FishList key={m.id} {...m} /> )
+
   return (
     <table id="tablePreview" className="table table-striped">
 			<thead>
@@ -11,16 +12,16 @@ const Bugs = (props) => {
 					<th>Name</th>
 					<th>Price</th>
 					<th>Location</th>
+					<th>Shadow Size</th>
 					<th className="d-none d-md-table-cell">Avaliable</th>
+				
 				</tr>
 			</thead>
-
 			<tbody>
-      	{allBugs}
+      	{allFish}
 			</tbody>
-			
 			</table>
   );
 }
 
-export default Bugs;
+export default Fish;

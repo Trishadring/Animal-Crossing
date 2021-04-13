@@ -1,5 +1,7 @@
-const fishData =[
-	{
+const FishData = {
+	api_key: '<REPLACE_THIS_WITH_TMDB_API_KEY>',
+	fishList: [
+		{
 		"fish_name": "Bitterling",
 		"price": "900",
 		"location": "River",
@@ -57,6 +59,7 @@ const fishData =[
 		"h_23": true
 	},
 	{
+		"id":2,
 		"fish_name": "Pale Chub",
 		"price": "160",
 		"location": "River",
@@ -228,6 +231,7 @@ const fishData =[
 		"h_23": true
 	},
 	{
+		"id":5,
 		"fish_name": "Carp",
 		"price": "300",
 		"location": "Pond",
@@ -4559,4 +4563,7 @@ const fishData =[
 		"h_22": true,
 		"h_23": true
 	}
- ]
+	]
+}
+
+export default FishData;

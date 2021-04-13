@@ -23,14 +23,16 @@ img {
 }
 
 .btn{
-	margin:5px;
-	
+	margin:5px;	
 }
 
 
 .photo {
-  width: 100%;
-  max-width: 50px;
+	width:33px;
+}
+
+td .img{
+	padding: 0;
 }
 
 .name {
@@ -43,16 +45,12 @@ img {
 	background-color: rgba(0,0,0,.05);
 }
 
-
-
 .footer {
   font-size: 0.7rem;
   color: #888;
   text-align: center;
   margin: 0;
 }
-
-
 
 /* my own container */
 

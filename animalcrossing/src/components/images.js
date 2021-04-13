@@ -3,7 +3,7 @@ const Images = ({img}) =>{
 	const imagesUrl = `./${img}`; 
 
 	return(
-			<img src={imagesUrl} alt="" />
+		<img src={imagesUrl} alt="" />
 
 	);
 }
