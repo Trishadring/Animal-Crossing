@@ -2,7 +2,10 @@ import FishList from "./fishList";
 
 const Fish = (props) => {
 
-  const allFish = props.bugs.map((m,i) => <FishList key={m.id} {...m} /> )
+
+	
+  const allFish = props.fish.map((m,i) => <FishList key={m.id} {...m} /> )
+
 
   return (
     <table id="tablePreview" className="table table-striped">
@@ -18,7 +21,7 @@ const Fish = (props) => {
 				</tr>
 			</thead>
 			<tbody>
-      	{allFish}
+      	 {allFish} 
 			</tbody>
 			</table>
   );
