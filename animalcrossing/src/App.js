@@ -11,35 +11,68 @@ import Fish from './components/fish';
 
 class App extends Component {
 
+	constructor(props) {
+		super(props);
+		this.setHemisphereSouth = this.setHemisphereSouth.bind(this);
+		this.setHemisphereNorth= this.setHemisphereNorth.bind(this);
+	}
+
 
 	initialState = () => ({
-    hemisphere: 'n',
-
+    hemisphere: 's',
+		type:'fish',
   });
 
 	state = this.initialState();
 
-	switchHemisphere = () => {
-    this.setState(prevState => ({
-			hemisphere: prevState.hemisphere === 'n' ? 's' : 'n'
-		}));
-  };
+	// switchtype = () => {
+  //   this.setState(prevState => ({
+	// 		type: prevState.hemisphere === 'fish' ? 'bug' : 'fish'
+	// 	}));
+  // };
 
+	setHemisphereSouth() {
+    this.setState({ hemisphere : 's'}, () => 
+    console.log(this.state.hemisphere));
+		this.forceUpdate();
+ };
+
+ setHemisphereNorth() {
+	this.setState({ hemisphere : 'n'}, () => 
+	console.log(this.state.hemisphere));
+	this.forceUpdate();
+};
+
+	// switchHemisphere = () => {
+  //   this.setState(prevState => ({
+	// 		hemisphere: prevState.hemisphere === 's' ? 's' : 'n'
+	// 	}));
+  // };
+
+	componentDidUpdate(prevProps, prevState) {
+		if (prevState.hemisphere !== this.state.hemisphere) {
+			console.log('hemisphere state has changed.')
+		}
+	}
 	
 
 
 render() {
+	const fish = FishData.fishList;
+	const bug = BugData.bugList;
 	const today = new Date();
 	let currentHour = today.getHours();
 	const currentMonth = today.getMonth();
 	const currentHemisphere = `${this.state.hemisphere}_${currentMonth}`;
+	console.log(currentHemisphere);
 	const Hour = `h_${currentHour}`;
-	let filter = FishData.fishList.filter(function (i) {
-		return i[currentHemisphere] === true;
+	let filter = fish.filter(function (i) {
+		return i[currentHemisphere] === true &&
+		i[Hour] === true;
+		// && hour
 	});
-	let filterTime = filter.filter(function (i) {
-		return i[Hour] === true;
-	});
+
+console.log(filter);
 		return (
 			<div className="my_container">	
 				<div className="top">
@@ -48,20 +81,12 @@ render() {
 						<Link className="btn btn-outline-primary" to="/BugList">Bug List</Link>
 						&nbsp;
 						<Link className="btn btn-outline-primary" to="/FishList">Fish List</Link>
+						<button type="button" onClick={this.setHemisphereNorth} className="btn btn-outline-secondary">North Hemisphere</button>
 						&nbsp;
-						<Link className="btn btn-outline-primary" to="/BothList">Bugs and Fish</Link>
+						<button type="button" onClick={this.setHemisphereSouth} className="btn btn-outline-secondary">South Hemisphere</button>
 					</nav>
-					<Route  path="/BugList" render={() => <Bugs bugs={BugData.bugList} />}/>
-					<Route  path="/FishList" render={() => <Fish fish={filterTime} />}/>	
-					<Route  path="/BothList" render={() => {
-					<>
-					<h1>Fish</h1>
-					<Fish fish={filterTime} />
-					<h1>Bugs</h1>
-					{/* <Bugs bugs={BugData.bugList} /> */}
-					</>
-				}
-					}/>				
+					<Route  path="/BugList" render={() => <Bugs bugs={bug} />}/>
+					<Route  path="/FishList" render={() => <Fish fish={filter} />}/>			
 				</div>		
 			</div>
 		)
