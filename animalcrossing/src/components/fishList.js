@@ -1,7 +1,6 @@
 
 
 function FishList({fish_num, fish_name, price, img, location, shadow_size, time }) {
-
 	
   return (
 		<tr id={fish_num}>
@@ -12,7 +11,6 @@ function FishList({fish_num, fish_name, price, img, location, shadow_size, time 
 			<td>{shadow_size}</td>
 			<td className="d-none d-md-table-cell">{time}</td>
 		</tr>
-
   );
 }
 
