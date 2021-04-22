@@ -8,7 +8,7 @@
 }
 
 p{
-	margin-bottom:5px;
+  margin-bottom:5px;
 }
 img {
   max-width: 100%;
@@ -23,16 +23,16 @@ img {
 }
 
 .btn{
-	margin:5px;	
+  margin:5px;  
 }
 
 
 .photo {
-	width:33px;
+  width:33px;
 }
 
 td .img{
-	padding: 0;
+  padding: 0;
 }
 
 .name {
@@ -42,7 +42,7 @@ td .img{
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
-	background-color: rgba(0,0,0,.05);
+  background-color: rgba(0,0,0,.05);
 }
 
 .footer {
@@ -62,17 +62,17 @@ padding:0;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-	.my_container{
-		max-width:100%;
-		
-	}
-	 }
+  .my_container{
+    max-width:100%;
+    
+  }
+   }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-	.my_container{
-		max-width:850px;
-		    padding-right: 15px;
+  .my_container{
+    max-width:850px;
+        padding-right: 15px;
     padding-left: 15px;
-	}
-	 }
+  }
+   }
