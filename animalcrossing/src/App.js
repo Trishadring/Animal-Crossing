@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Route, Link} from "react-router-dom";
+import { Route, Link, Switch} from "react-router-dom";
 import {Component} from 'react';
 import BugData from "./data/bugData";
 import FishData from "./data/fishData";
@@ -56,15 +56,18 @@ class App extends Component {
           <div className="top">
             <h1>Animal Crossing New Horizon </h1>
             <nav>
-              <Link className="btn btn-outline-primary" to="/BugList">Bug List</Link>
+              <Link className="btn btn-outline-primary" to="/">Bug List</Link>
               &nbsp;
               <Link className="btn btn-outline-primary" to="/FishList">Fish List</Link>
               <button type="button" onClick={this.setHemisphereNorth} className="btn btn-outline-secondary">North Hemisphere</button>
               &nbsp;
               <button type="button" onClick={this.setHemisphereSouth} className="btn btn-outline-secondary">South Hemisphere</button>
+							
             </nav>
-            <Route  path="/BugList"  render={() => <Bugs bugs={filterBugs} />}/>
-            <Route  path="/FishList" render={() => <Fish fish={filterFish} />}/>      
+						<Switch>
+            <Route exact path="/"  render={() => <Bugs bugs={filterBugs} />}/>
+            <Route  path="/FishList" render={() => <Fish fish={filterFish} />}/>  
+						</Switch>    
           </div>    
         </div>
       )
