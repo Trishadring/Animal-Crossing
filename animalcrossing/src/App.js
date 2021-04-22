@@ -8,7 +8,6 @@ import Bugs from "./components/bugs";
 import Fish from './components/fish';
 
 
-
 class App extends Component {
 
   constructor(props) {
@@ -25,12 +24,6 @@ class App extends Component {
 
   state = this.initialState();
 
-  // switchtype = () => {
-  //   this.setState(prevState => ({
-  //     type: prevState.hemisphere === 'fish' ? 'bug' : 'fish'
-  //   }));
-  // };
-
   setHemisphereSouth() {
     this.setState({ hemisphere : 's'});
   };
@@ -38,12 +31,6 @@ class App extends Component {
   setHemisphereNorth() {
   this.setState({ hemisphere : 'n'});
   };
-
-  // switchHemisphere = () => {
-  //   this.setState(prevState => ({
-  //     hemisphere: prevState.hemisphere === 's' ? 's' : 'n'
-  //   }));
-  // };
 
   componentDidUpdate(prevProps, prevState) {
     if (prevState.hemisphere !== this.state.hemisphere) {

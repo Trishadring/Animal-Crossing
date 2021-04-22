@@ -4,7 +4,7 @@ function FishList({fish_num, fish_name, price, img, location, shadow_size, time 
   
   return (
     <tr id={fish_num}>
-      <td><img className="photo" src={`http://www.acnhcritter.tdring.com/${img}`} alt={fish_name}/></td>
+      <td><img className="photo" src={`/imgs/${img}`} alt={fish_name}/></td>
       <td className="name">{fish_name}</td>
       <td>{price}</td>
       <td>{location}</td>
