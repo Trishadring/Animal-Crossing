@@ -7,6 +7,7 @@ const Bugs = (props) => {
     <table id="tablePreview" className="table table-striped">
       <thead>
         <tr>
+          <th>Caught</th>
           <th></th>
           <th>Name</th>
           <th>Price</th>
